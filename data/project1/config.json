@@ -1,0 +1,21 @@
+{
+  "goal": "Closing deals 🤑",
+  "pipeline": [
+    { "name": "Lead", "emoji": "🔎", "color": "#3498DB" },
+    { "name": "First contact", "emoji": "👋", "color": "#FF9F80" },
+    { "name": "Negotiations", "emoji": "📝", "color": "#FFD580" },
+    { "name": "Closed won", "emoji": "✅", "color": "#9DE0AD" },
+    { "name": "Closed lost", "emoji": "🚫", "color": "#F794A0" }
+  ],
+  "contactAttributes": [
+    { "name": "company", "type": "text", "label": "Company" },
+    { "name": "source", "type": "text", "label": "Source" },
+    { "name": "partner", "type": "text", "label": "Partner" },
+    { "name": "nextstep", "type": "text", "label": "Nächster Schritt" },
+    { "name": "euro", "type": "number", "label": "Euro" },
+    { "name": "url", "type": "url", "label": "URL" }
+  ],
+  "defaultColumns": "stage,company,source,partner,nextstep,url",
+  "defaultSort": "+stage,+name",
+  "defaultNameAttribute": "company"
+}
