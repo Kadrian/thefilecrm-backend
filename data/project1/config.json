@@ -1,5 +1,5 @@
 {
-  "goal": "Closing deals 🤑",
+  "goal": "Sell high, touch sky! 💰",
   "pipeline": [
     { "name": "Lead", "emoji": "🔎", "color": "#3498DB" },
     { "name": "First contact", "emoji": "👋", "color": "#FF9F80" },
@@ -16,6 +16,6 @@
     { "name": "url", "type": "url", "label": "URL" }
   ],
   "defaultColumns": "stage,company,source,partner,nextstep,url",
-  "defaultSort": "+stage,+name",
+  "defaultSort": "+stage,+company",
   "defaultNameAttribute": "company"
 }

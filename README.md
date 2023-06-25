@@ -42,13 +42,19 @@ git clone https://github.com/kadrian/thefilecrm-backend.git
 cd thefilecrm-backend
 ```
 
-Then, run the following command to start the app:
+Then, run the following command to start the backend:
 
 ```bash
 docker-compose up
 ```
 
-By default, that will use the `./data` folder and run a server on [localhost:3000](http://localhost:3000).
+By default, the backend listen on localhost:3333. It will use the `./data` folder from this repository (see the files above).
 
 Then you can go to [thefilecrm.com](https://thefilecrm.com), connect the frontend app to your backend and start working on your local data.
 
+## Caveat
+Certain browsers might not allow you to connect to a localhost from another origin. In that case, you can use the following workaround:
+
+### Brave Browser
+Add `@@||localhost^$domain=thefilecrm.com` into [brave://adblock](brave://adblock)`
+[source](https://community.brave.com/t/brave-blocks-localhost-needs-shields-off-to-have-functioning-website/260084/2)
